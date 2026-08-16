@@ -6,7 +6,7 @@ Read before writing any run sheet. It governs *when* a fact gets written, which 
 
 This skill has a downstream pipeline, and that pipeline is a real safety net for one failure: it stops the foundation swallowing the spec, because `/to-spec` and `/to-tickets` will derive those anyway. The anti-drift rules already cover it.
 
-It is no safety net at all for the other failure. A run sheet written today for roadmap line 07 describes a codebase that will not exist for six sessions. Nothing downstream corrects it, because `/to-spec` reads that sheet's briefing block **as settled fact** — the block is what the user pastes, and a guess pasted into a grilling session is indistinguishable from a decision.
+It is no safety net at all for the other failure. A run sheet written today for roadmap line 07 describes a codebase that will not exist for six sessions. Nothing downstream corrects it, because `/to-spec` reads that sheet's briefing **as settled fact** — the briefing is what the grilling session is handed, and a guess handed to that session is indistinguishable from a decision.
 
 So the foundation is bounded by charter, and the run sheets are bounded by depth.
 
@@ -41,7 +41,7 @@ Every roadmap line has a **depth**, recorded in the Depth column of `ROADMAP.md`
 
 ### `brief` — every line, from the moment the roadmap is approved
 
-Intent, scope, anchors, open questions, read-first. This is what [RUN-SHEET-FORMAT.md](../assets/RUN-SHEET-FORMAT.md) calls the briefing block, and it is short on purpose: enough to judge order, dependency and scope, and nothing more, because nothing more is knowable yet.
+Intent, scope, anchors, open questions, read-first. This is what [RUN-SHEET-FORMAT.md](../assets/RUN-SHEET-FORMAT.md) calls the briefing, and it is short on purpose: enough to judge order, dependency and scope, and nothing more, because nothing more is knowable yet.
 
 ### `detailed` — only the line about to be built
 

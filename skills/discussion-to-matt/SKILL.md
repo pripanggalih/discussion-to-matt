@@ -1,6 +1,6 @@
 ---
 name: discussion-to-matt
-description: Establish a durable project foundation and one ordered, paste-ready run sheet per feature — the layer the per-feature skills assume but never create. Run it at the start of a build, where it holds the grilling itself, or at the end of a design conversation to distil what was decided.
+description: Establish a durable project foundation and one ordered, session-ready run sheet per feature — the layer the per-feature skills assume but never create. Run it at the start of a build, where it holds the grilling itself, or at the end of a design conversation to distil what was decided.
 disable-model-invocation: true
 ---
 
@@ -58,7 +58,7 @@ Preflight has passed, so the map is now accurate — nothing below is going to b
 
 Tell the user four things, in this order:
 
-1. **The shape of the run** — the numbered steps below, named. Say where it ends: `docs/foundation/` written and one paste-ready run sheet per feature. Say what it does not do: write code, write a spec, or open a ticket.
+1. **The shape of the run** — the numbered steps below, named. Say where it ends: `docs/foundation/` written and one session-ready run sheet per feature. Say what it does not do: write code, write a spec, or open a ticket.
 2. **Where they are asked to decide** — twice. Once on the foundation, before the roadmap is built; once on the roadmap order, before the run sheets are written. Both are hard stops. Both arrive as a handful of questions in the chat, answerable in a word — they are never asked to open a file.
 3. **Which mode this run is in** — and what that changes:
 
@@ -169,8 +169,8 @@ One `docs/foundation/run-sheets/NN-<slug>.md` per roadmap line, from [RUN-SHEET-
 
 This is where the **narrow pass** of step 3's scan happens: for each line, look at the packages that line touches, so its anchors and its read-first list cite files that exist.
 
-Mark each sheet **UI** or **no UI** — that decides whether its command chain includes the Impeccable passes, and the format file carries both chains. The first UI sheet also carries the design-system setup block, once and never repeated.
+Mark each sheet **UI** or **no UI** — that decides whether the sheet carries the Impeccable design passes. A **no UI** sheet carries no commands at all: the build chain is identical on every sheet and the user works it from memory, so only the UI-only passes are worth writing down. The first UI sheet also carries the design-system setup block, once and never repeated.
 
-Each sheet's briefing block names its **anchors** — the entities, seams, screens and reuse targets that apply, by name. Naming them carries one vocabulary from run sheet to glossary to spec, and tells the agent which part of a long file matters. Link the files; never copy their content.
+Each sheet's briefing names its **anchors** — the entities, seams, screens and reuse targets that apply, by name. Naming them carries one vocabulary from run sheet to glossary to spec, and tells the agent which part of a long file matters. Link the files; never copy their content.
 
-Commit the roadmap and the sheets, then tell the user how to work it: top to bottom, one sheet per feature, open a fresh session and paste the briefing block. Everything about the documents from that point — deepening the next sheet, reconciling drift, moving the Depth column — is the agent's, triggered by that paste.
+Commit the roadmap and the sheets, then tell the user how to work it: top to bottom, one sheet per feature, opening a fresh session and attaching the sheet — `/grill-with-docs @docs/foundation/run-sheets/NN-<slug>.md`, nothing to copy and nothing to read first. Everything about the documents from that point — deepening the next sheet, reconciling drift, moving the Depth column — is the agent's, triggered by that attachment.

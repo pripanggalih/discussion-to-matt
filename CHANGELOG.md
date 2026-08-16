@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] — 2026-08-16
+
+### Changed
+
+- **A run sheet is attached, not pasted.** The briefing is no longer a fenced block the user copies; it is now ordinary sections of the sheet, and a session is opened with `/grill-with-docs @docs/foundation/run-sheets/NN-<slug>.md`. The user never has to read the sheet to use it. *Before grilling* now states outright that it is the opening instruction, since it no longer arrives via a pointer at the top of the paste.
+- **The build chain is no longer printed on every sheet.** `/grill-with-docs → /to-spec → /to-tickets → /implement` is identical on every line and is stated once, in `ROADMAP.md`' *How this roadmap is worked*. A `no UI` sheet now carries no commands at all.
+- **`## Commands` is now `## Design passes`, UI sheets only** — `/impeccable shape` before `/to-spec`, and `critique` / `audit` / `polish` before merge. These are kept per-sheet precisely because they are not part of the memorised chain and are the ones worth forgetting-proofing.
+
 ## [0.1.0] — 2026-08-16
 
 First packaged release. The skill existed before this as loose files; this version is the first one installable with `npx skills add`.

@@ -21,7 +21,7 @@ docs/foundation/
 ├── DATA-MODEL.md                       entities and relationships          (only if there is data)
 ├── SEAMS.md                            the seam registry                   (only once there is a seam)
 ├── ROADMAP.md                          ordered features — the only place progress and depth live
-└── run-sheets/NN-<slug>.md             one per roadmap line, paste-ready
+└── run-sheets/NN-<slug>.md             one per roadmap line, attach and go
 ```
 
 The glossary and the ADRs are **not** written here — `/domain-modeling` writes those inline during the interrogation, and a copy would diverge the moment one side was updated alone. `DESIGN.md` belongs to [impeccable](https://github.com/pbakaus/impeccable).
@@ -33,7 +33,7 @@ a free-form idea  (or a repo you inherited)
   → /discussion-to-matt      interrogate it, write the foundation, order the roadmap,
                              write one run sheet per line
   → per roadmap line, top to bottom, one fresh session each:
-      paste the briefing block into /grill-with-docs
+      /grill-with-docs @docs/foundation/run-sheets/NN-<slug>.md
       /impeccable shape      (UI only)
       /to-spec  →  /to-tickets  →  /implement
       /impeccable critique · audit · polish   (UI only)
@@ -46,7 +46,7 @@ a free-form idea  (or a repo you inherited)
 
 **Detail is written late, on purpose.** Every run sheet starts as a brief. Only the line about to be built is promoted to detailed, against the code that exists by then. A run sheet written today for line 07 describes a codebase six sessions away, and `/to-spec` will read it as settled fact.
 
-**Promotion is the agent's job, not yours.** It fires when you paste the briefing block into the next session — no document to maintain, no checkbox to tick by hand. You answer questions in the chat; the agent writes every file.
+**Promotion is the agent's job, not yours.** It fires when you attach the sheet to the next session — nothing to read first, nothing to copy, no checkbox to tick by hand. You answer questions in the chat; the agent writes every file.
 
 **One home per fact.** Each file has a charter, and the self-review checks placeholders with a real `grep`, traces every capability through to a run-sheet anchor that exists, and finishes by re-reading run sheet 01 as an agent that did not witness the conversation.
 

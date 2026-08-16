@@ -29,7 +29,7 @@ Ideas raised in the foundation session and consciously deferred, one line each o
 ## How this roadmap is worked
 
 1. Take the lowest-numbered unticked line.
-2. Open a fresh session at the project root, run `/grill-with-docs`, and paste that sheet's briefing block.
+2. Open a fresh session at the project root and run `/grill-with-docs @docs/foundation/run-sheets/NN-<slug>.md`, attaching that sheet.
 3. The session promotes the sheet to `detailed` before it grills, reconciles any foundation drift, and updates this table. Nothing here is the user's to edit.
-4. Work the sheet's commands in order.
+4. Work the chain — `/to-spec`, `/to-tickets`, `/implement`. On a **UI** line the sheet names the Impeccable passes that wrap it; a **no UI** sheet names nothing, because there is nothing extra to run.
 5. On merge, the sheet's *On finishing* ticks the box here.

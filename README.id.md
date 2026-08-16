@@ -21,7 +21,7 @@ docs/foundation/
 ├── DATA-MODEL.md                       entity dan relasinya                (hanya kalau ada data)
 ├── SEAMS.md                            registri seam                       (hanya setelah ada seam)
 ├── ROADMAP.md                          fitur terurut — satu-satunya tempat progress dan depth hidup
-└── run-sheets/NN-<slug>.md             satu per baris roadmap, siap paste
+└── run-sheets/NN-<slug>.md             satu per baris roadmap, tinggal attach
 ```
 
 Glosarium dan ADR **tidak** ditulis di sini — `/domain-modeling` yang menulisnya inline saat interogasi berlangsung, dan salinan akan menyimpang begitu satu sisi diperbarui sendirian. `DESIGN.md` milik [impeccable](https://github.com/pbakaus/impeccable).
@@ -33,7 +33,7 @@ ide bebas  (atau repo warisan)
   → /discussion-to-matt      interogasi, tulis foundation, urutkan roadmap,
                              tulis satu run sheet per baris
   → per baris roadmap, dari atas ke bawah, satu sesi baru tiap baris:
-      paste briefing block ke /grill-with-docs
+      /grill-with-docs @docs/foundation/run-sheets/NN-<slug>.md
       /impeccable shape      (khusus UI)
       /to-spec  →  /to-tickets  →  /implement
       /impeccable critique · audit · polish   (khusus UI)
@@ -46,7 +46,7 @@ ide bebas  (atau repo warisan)
 
 **Detail ditulis belakangan, dengan sengaja.** Tiap run sheet lahir sebagai brief. Hanya baris yang akan dibangun yang dipromosikan jadi detailed, terhadap kode yang sudah ada saat itu. Run sheet yang ditulis hari ini untuk baris 07 menggambarkan kode yang baru ada enam sesi lagi, dan `/to-spec` akan membacanya sebagai fakta.
 
-**Promosi itu kerja agent, bukan kerjamu.** Ia menyala saat kau paste briefing block ke sesi berikutnya — tidak ada dokumen untuk dirawat, tidak ada checkbox untuk dicentang manual. Kau menjawab pertanyaan di chat; agent yang menulis semua file.
+**Promosi itu kerja agent, bukan kerjamu.** Ia menyala saat kau attach sheet-nya ke sesi berikutnya — tidak ada yang perlu dibaca duluan, tidak ada yang perlu disalin, tidak ada checkbox untuk dicentang manual. Kau menjawab pertanyaan di chat; agent yang menulis semua file.
 
 **Satu fakta, satu rumah.** Tiap file punya charter, dan self-review-nya mengecek placeholder dengan `grep` sungguhan, melacak tiap kapabilitas sampai ke anchor run sheet yang benar-benar ada, lalu ditutup dengan membaca ulang run sheet 01 sebagai agent yang tidak menyaksikan percakapannya.
 

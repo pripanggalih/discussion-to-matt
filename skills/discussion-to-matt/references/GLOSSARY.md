@@ -36,7 +36,7 @@ One file per roadmap line, holding the ordered commands that take that feature f
 
 A run sheet is not a prompt. Every skill it names is user-invoked, so nothing triggers itself from a natural-language opener — the sheet tells *you* what to type. It is also **stateless**: progress and **depth** live only in `ROADMAP.md`, so a sheet never records having been run.
 
-What it *does* carry, outside its briefing block, is instruction: the **promotion** block the opening agent acts on, and — on the first UI sheet only — the design-system setup commands. Neither is a restatement of anything, which is why neither can drift.
+What it *does* carry, outside its briefing, is instruction: the **promotion** block the opening agent acts on, and — on the first UI sheet only — the design-system setup commands. Neither is a restatement of anything, which is why neither can drift.
 
 _Avoid_: kickoff prompt, playbook, checklist, recipe.
 
@@ -56,7 +56,7 @@ _Avoid_: level, stage, maturity, fidelity.
 
 ## promotion
 
-Deepening a run sheet from `brief` to `detailed` against the code as it now stands. It happens at the *start* of the session that will build the feature, not the end of the one before, because that is the moment the code is most current — and because the user has already done the only thing it needs, which is paste the briefing block.
+Deepening a run sheet from `brief` to `detailed` against the code as it now stands. It happens at the *start* of the session that will build the feature, not the end of the one before, because that is the moment the code is most current — and because the user has already done the only thing it needs, which is attach the sheet.
 
 Promotion is the agent's work, like every other document change in this skill. The user answers questions; they never edit a file.
 
