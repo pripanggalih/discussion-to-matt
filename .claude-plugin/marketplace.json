@@ -1,0 +1,23 @@
+{
+  "name": "discussion-to-matt",
+  "owner": {
+    "name": "pripanggalih",
+    "url": "https://github.com/pripanggalih"
+  },
+  "description": "discussion-to-matt — the foundation layer mattpocock/skills assumes but never creates, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "discussion-to-matt",
+      "source": "./",
+      "description": "Settle a design conversation into a project foundation, an ordered roadmap, and one run sheet per feature.",
+      "category": "engineering",
+      "keywords": [
+        "skills",
+        "foundation",
+        "grilling",
+        "roadmap",
+        "mattpocock"
+      ]
+    }
+  ]
+}
