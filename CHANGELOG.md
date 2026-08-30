@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] — 2026-08-30
+
+### Changed
+
+- **A run sheet no longer opens with the command that opens it.** The header block — roadmap line, `UI` / `no UI`, and the `/grill-with-docs` invocation — is gone. It was an instruction that could only be read by someone who had already obeyed it, and the command already has a home in `ROADMAP.md`' *How this roadmap is worked*. A sheet now starts at its title and goes straight to *Before grilling*, the first thing to act on.
+- **`UI` / `no UI` is a decision, not a label.** Nothing on the sheet announces it; it shows as whether the sheet carries the Impeccable design passes.
+
 ## [0.2.0] — 2026-08-16
 
 ### Changed

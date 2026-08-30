@@ -169,7 +169,7 @@ One `docs/foundation/run-sheets/NN-<slug>.md` per roadmap line, from [RUN-SHEET-
 
 This is where the **narrow pass** of step 3's scan happens: for each line, look at the packages that line touches, so its anchors and its read-first list cite files that exist.
 
-Mark each sheet **UI** or **no UI** — that decides whether the sheet carries the Impeccable design passes. A **no UI** sheet carries no commands at all: the build chain is identical on every sheet and the user works it from memory, so only the UI-only passes are worth writing down. The first UI sheet also carries the design-system setup block, once and never repeated.
+Decide **UI** or **no UI** for each sheet — it settles whether the sheet carries the Impeccable design passes. Nothing records the decision as a label; it shows as whether those passes are there. A **no UI** sheet carries no commands at all: the build chain is identical on every sheet and the user works it from memory, so only the UI-only passes are worth writing down. The first UI sheet also carries the design-system setup block, once and never repeated.
 
 Each sheet's briefing names its **anchors** — the entities, seams, screens and reuse targets that apply, by name. Naming them carries one vocabulary from run sheet to glossary to spec, and tells the agent which part of a long file matters. Link the files; never copy their content.
 

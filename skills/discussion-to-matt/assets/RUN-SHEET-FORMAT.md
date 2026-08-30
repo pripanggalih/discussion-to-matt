@@ -1,14 +1,6 @@
 # NN — <feature>
 
-> Roadmap line NN · **UI** or **no UI**. Open a fresh session at the project root and run:
->
-> ```
-> /grill-with-docs @docs/foundation/run-sheets/NN-<slug>.md
-> ```
->
-> Nothing to copy, nothing to read first. The sheet tells the session what to do with itself.
-
-A sheet has three parts and no others: the two agent-facing sections below, the **briefing**, and — on a **UI** sheet only — the design passes. The build chain is not one of them: `/grill-with-docs → /to-spec → /to-tickets → /implement` is identical on every sheet, the user knows it by heart, and an instruction repeated on every sheet is one they learn to skip past — taking the sheet's real content with it.
+A sheet has three parts and no others: the two agent-facing sections below, the **briefing**, and — on a **UI** sheet only — the design passes. The build chain is not one of them: `/grill-with-docs → /to-spec → /to-tickets → /implement` is identical on every sheet, the user knows it by heart, and an instruction repeated on every sheet is one they learn to skip past — taking the sheet's real content with it. Nor is the command that opens the sheet: `ROADMAP.md` states it once, and a copy at the top of the file could only be read by someone who had already obeyed it.
 
 The whole file reaches the session as an attachment, so ordering is the sheet's job, not the user's: *Before grilling* runs first, the briefing is the material, everything else waits for its moment and says so. One rule binds what may live outside the briefing — **no second copy of the intent, the scope or the anchors**. That is the drift the briefing exists to prevent, and it is the only thing that can drift, because everything else here is an instruction rather than a restatement.
 

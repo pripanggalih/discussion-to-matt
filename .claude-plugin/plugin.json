@@ -1,7 +1,7 @@
 {
   "name": "discussion-to-matt",
   "description": "The foundation layer for mattpocock/skills — turns a free-form idea into durable project documents, an ordered roadmap, and one session-ready run sheet per feature, each of which drops the engineering skills into a session that is already grounded.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "pripanggalih",
     "url": "https://github.com/pripanggalih"
